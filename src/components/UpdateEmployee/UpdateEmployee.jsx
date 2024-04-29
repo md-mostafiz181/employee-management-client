@@ -23,7 +23,7 @@ const UpdateEmployee = () => {
         console.log(updateEmployee)
 
 
-        fetch(`http://localhost:5000/employee/${_id}`, {
+        fetch(`https://employee-management-server-ds82ijafh-mostafiz181s-projects.vercel.app/employee/${_id}`, {
             method:"PUT",
             headers:{
                 "content-type": "application/json"
