@@ -1,0 +1,28 @@
+
+
+.table tr .name{
+    width: 250px;
+}
+
+.table tr .number{
+    width: 400px;
+}
+
+.table tr .company{
+    width: 400px;
+}
+
+.btn-update{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #0a3a4a;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    transition: .4s;
+}
+
+.btn-update:hover{
+    background-color: white;
+    color: #0a3a4a;
+}

@@ -1,0 +1,33 @@
+#dashboard-part{
+    width: 100%;
+    background-color: white;
+   
+}
+
+#dashboard-part .menu{
+    height: 100%;
+}
+
+#dashboard-part .menu li a{
+    display: inline-block;
+    text-align: center;
+    margin: 10px 0;
+    color: white;
+    transition: .4s;
+
+}
+
+#dashboard-part .menu li a:hover{
+    background-color: #0a3a4a;
+    color: white;
+    border: 0;
+    
+}
+
+#dashboard-part .dashboard-container table th{
+    background-color: #0a3a4a;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
