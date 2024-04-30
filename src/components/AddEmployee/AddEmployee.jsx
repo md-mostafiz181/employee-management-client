@@ -20,7 +20,7 @@ const AddEmployee = () => {
         console.log(newEmployee)
 
 
-        fetch("employee-management-server-self.vercel.app/employee", {
+        fetch("https://employee-management-server-47r1r2e82-mostafiz181s-projects.vercel.app/employee", {
             method:"POST",
             headers:{
                 "content-type": "application/json"

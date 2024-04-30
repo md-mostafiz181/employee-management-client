@@ -27,7 +27,7 @@ export  const router = createBrowserRouter([
         {
           path:"dashboard",
           element:<Dashboard></Dashboard>,
-          loader:()=> fetch("employee-management-server-self.vercel.app/employee")
+          loader:()=> fetch("https://employee-management-server-47r1r2e82-mostafiz181s-projects.vercel.app/employee")
         },
         {
           path:"addEmployee",
@@ -36,7 +36,7 @@ export  const router = createBrowserRouter([
         {
           path:"updateEmployee/:id",
           element:<UpdateEmployee></UpdateEmployee>,
-          loader:({params})=> fetch(`employee-management-server-self.vercel.app/employee/${params.id}`)
+          loader:({params})=> fetch(`https://employee-management-server-47r1r2e82-mostafiz181s-projects.vercel.app/employee/${params.id}`)
         }
         
 
